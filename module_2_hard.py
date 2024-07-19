@@ -15,7 +15,7 @@ def password(divs):
     return psswrd
 
 
-x = int(input("Введите число: "))
+x = int(input("Введите число от 3 до 20: "))
 d = dividers(x)
 p = password(d)
 for i in range(len(p)):
